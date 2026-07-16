@@ -12,3 +12,7 @@ What's Used:
 -CSS
 -JS
 -Steam Web API
+
+Live Link
+----------------------------
+https://camthustain01.github.io/SteamBacklogBeaterApp/
