@@ -1,0 +1,23 @@
+#pick-btn{background-color: #C4432B}
+#pick-btn:hover{background-color: #C9A227}
+#pick-btn{color: #F0EAD6}
+#pick-btn{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#results{background-color: #F0EAD6}
+#results{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{background-color: #1A1D18}
+body{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
