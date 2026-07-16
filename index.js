@@ -1,18 +1,18 @@
 
 const game_array =[
     {
-    "appid": 205100,
-    "name": "Dishonored",
-    "playtime_forever": 0,
-    "img_icon_url": "74f8ee1ba536e0759e64a9bf801fc013e16c8dd1",
-    "has_community_visible_stats": true,
-    "playtime_windows_forever": 0,
-    "playtime_mac_forever": 0,
-    "playtime_linux_forever": 0,
-    "playtime_deck_forever": 0,
-    "rtime_last_played": 0,
-    "has_leaderboards": true,
-    "playtime_disconnected": 0
+        "appid": 205100,
+        "name": "Dishonored",
+        "playtime_forever": 0,
+        "img_icon_url": "74f8ee1ba536e0759e64a9bf801fc013e16c8dd1",
+        "has_community_visible_stats": true,
+        "playtime_windows_forever": 0,
+        "playtime_mac_forever": 0,
+        "playtime_linux_forever": 0,
+        "playtime_deck_forever": 0,
+        "rtime_last_played": 0,
+        "has_leaderboards": true,
+        "playtime_disconnected": 0
     },
     {
         "appid": 1030300,
@@ -55,5 +55,17 @@ const game_array =[
     },
     ];
 
-console.log(game_array);
-//test change added comment
+
+const game_result = document.getElementById("results");
+const pick_button = document.getElementById("pick-btn");
+
+pick_button.addEventListener("click", (displayResults))
+
+function displayResults() {
+    game_result.textContent = game_array[getRandomInt()].name;
+}
+
+function getRandomInt() {
+    return Math.floor(Math.random() * game_array.length);
+}
+
