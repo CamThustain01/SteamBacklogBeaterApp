@@ -8,10 +8,10 @@ This app uses Steams API to grab my library and pick me a game at random.
 
 What's Used:
 --------------------------------
--HTML
--CSS
--JS
--Steam Web API
+- HTML
+- CSS
+- JS
+- Steam Web API
 
 Live Link
 ----------------------------
